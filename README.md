@@ -1,7 +1,7 @@
 
 <div align="center"><h3>Simple Whatsapp Bot Made <br>With <a href="https://github.com/adiwajshing/Baileys">Baileys</a></h3></div> 
 
-### Install di Termux
+### Instalação no Termux
 ````
 >> pkg install nodejs git tesseract libwebp wget imagemagick
 
