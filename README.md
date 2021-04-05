@@ -3,19 +3,19 @@
 
 ### Install di Termux
 ````
-pkg install nodejs git tesseract libwebp wget imagemagick
+>> pkg install nodejs git tesseract libwebp wget imagemagick
 
-git clone https://github.com/salismazaya/whatsapp-bot
+>> git clone https://github.com/salismazaya/whatsapp-bot
 
-wget https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/master/ind.traineddata
+>> wget https://raw.githubusercontent.com/tesseract-ocr/tessdata_best/master/ind.traineddata
 
-mv ind.traineddata /data/data/com.termux/files/usr/share/tessdata 
+>> mv ind.traineddata /data/data/com.termux/files/usr/share/tessdata 
 
-cd whatsapp-bot
+>> cd whatsapp-bot
 
-npm install
+>> npm install
 
-node index.js
+>> node index.js
 ````
 
 ### Install di Linux (ubuntu & debian)
